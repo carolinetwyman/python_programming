@@ -7,4 +7,4 @@ for i in range(n):
     used = int(input())
     total_mb = total_mb - used
 
-print(total_mb)
+print(total_mb)    
