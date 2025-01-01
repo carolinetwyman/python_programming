@@ -52,3 +52,15 @@ print(stack, "stack append good")
 #pop
 stack.pop()
 print(stack, "stack popped")
+
+#list and set comprehension
+customers = [("John", 240000),
+             ("Alice", 120000),
+             ("Ann", 1100000),
+             ("Zach", 440000)]
+
+whales = [x for x,y in customers if y>1000000]
+print(whales, "whales")
+
+minions = [n for n,m in customers if m<1000000]
+print(minions, "minions")

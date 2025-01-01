@@ -2,18 +2,23 @@
 hero = 'harry potter'
 guide = 'dumbledore'
 villain = 'lord v'
-characters = {hero, guide, villain}
+
+characters_set = {hero, guide, villain}
+print(characters_set, "characters")
 print(hash(hero))
+team_1 = [hero, guide]
+team_2 = [villain]
+teams = [team_1, team_2]
+print(teams, "teams list")
 
-characters = {hero, guide, villain}
-print(characters, "characters")
+characters_list = [hero, guide, villain]
+team_3 = [hero, guide]
+team_4 = [hero, guide]
+print(teams, "teams list")
 
+clone_army = {hero, hero, hero, hero, hero}
+print(clone_army, "clone army")
 
-customers = [("John", 240000),
-             ("Alice", 120000),
-             ("Ann", 1100000),
-             ("Zach", 440000)]
-
-whales = [x for x,y in customers if y>1000000]
-print(whales)
+clone_army = [hero, hero, hero, hero]
+print(clone_army, "clone army")
 
