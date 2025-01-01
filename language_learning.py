@@ -9,7 +9,7 @@ for i in range(lines):
 T = 'Tt'
 S = 'Ss'
 
-def detect_language(sentence):
+def detect_language(sentences):
     englishness = 0
     frenchness = 0
     
